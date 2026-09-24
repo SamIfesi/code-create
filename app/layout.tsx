@@ -1,10 +1,18 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
-const inter = Inter({
-  variable: '--font-inter',
-  subsets: ['latin'],
+const outfit = localFont({
+  src: [{ path: './fonts/Outfit-VariableFont_wght.ttf', style: 'normal' }],
+  variable: '--font-outfit',
+  display: 'swap',
+  preload: true,
+});
+const plusJakartaSans = localFont({
+  src: [
+    { path: './fonts/PlusJakartaSans-VariableFont_wght.ttf', style: 'normal' },
+  ],
+  variable: '--font-plusJakartaSans',
   display: 'swap',
   preload: true,
 });
@@ -17,28 +25,24 @@ export const metadata: Metadata = {
   description: 'Welcome to Code & Create',
   alternates: {
     canonical: baseUrl,
-    media: {
-      'only screen and (max-width: 600px)': [
-        { url: 'https://example.com/small-screen' },
-      ],
-    },
   },
   openGraph: {
     title: 'Code & Create',
     description: 'Welcome to Code & Create',
     url: baseUrl,
     siteName: 'Code & Create',
-    images: [{ url: 'https://example.com/og.png' }],
+    images: [{ url: `${baseUrl}/og.png` }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Code & Create',
     description: 'Welcome to Code & Create',
-    images: ['https://example.com/twitter.png'],
+    images: [`${baseUrl}/twitter.png`],
     creator: '@codeandcreate',
   },
-  abstract: 'Code & Create is a platform for developers and creators to share their projects and ideas.',
+  abstract:
+    'Code & Create is a platform for developers and creators to share their projects and ideas.',
   keywords: ['code', 'create', 'development', 'creativity'],
   robots: {
     index: true,
@@ -64,7 +68,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${outfit.variable} ${plusJakartaSans.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
