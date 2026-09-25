@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import {useState} from 'react'
+import { useState } from 'react';
 import Logo from '@icons/Logo';
 import { Hambuger } from '@icons/NavBtn';
 import { PRIMARY_LINKS } from '@libs/utils';
@@ -31,19 +31,25 @@ export default function Navbar() {
             ))}
           </nav>
           <button
+            type="button"
+            onClick={() => setMobileOpen(true)}
             className="flex h-10 w-10 items-center justify-center rounded-full border border-border hover:text-secondary-t text-primary-t transition-colors md:hidden"
             aria-controls="mobile-nav"
+            aria-expanded={mobileOpen}
             aria-label="Open menu"
           >
             <Hambuger />
           </button>
-          <button className="hidden md:block rounded-md bg-accent px-5 py-2.5 text-xs font-semibold font-outfit text-primary-w shadow-sm hover:bg-accent/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary">
+          <Link
+            href="/"
+            className="hidden md:block rounded-md bg-accent px-5 py-2.5 text-xs font-semibold font-outfit text-primary-w shadow-sm hover:bg-accent/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary"
+          >
             Pantner with Us
-          </button>
+          </Link>
         </div>
       </header>
 
-      <MobileNav open={mobileOpen} onClose={()=>setMobileOpen(false)}/>
+      <MobileNav open={mobileOpen} onClose={() => setMobileOpen(false)} />
     </>
   );
 }
