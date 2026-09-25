@@ -22,8 +22,9 @@
       "@/*": ["./*"],
       "@app/*": ["./app/*"],
       "@components/*": ["./components/*"],
+      "@nav/*": ["./components/nav/*"],
       "@icons/*": ["./components/icons/*"],
-      "@lib/*": ["./lib/*"]
+      "@libs/*": ["./libs/*"]
     }
   },
   "include": [
