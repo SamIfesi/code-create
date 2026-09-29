@@ -23,6 +23,7 @@
       "@app/*": ["./app/*"],
       "@components/*": ["./components/*"],
       "@nav/*": ["./components/nav/*"],
+      "@home/*": ["./components/home/*"],
       "@icons/*": ["./components/icons/*"],
       "@libs/*": ["./libs/*"]
     }
