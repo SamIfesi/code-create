@@ -23,7 +23,7 @@ export default function WhoWeAre() {
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-5 sm:grid-rows-2 gap-4">
           <Reveal
             delay={260}
-            className="sm:col-span-4 sm:row-start-1 h-64 sm:h-72 lg:h-105"
+            className="sm:col-span-4 sm:row-start-1 h-64 sm:h-70"
           >
             <div className="relative h-full w-full overflow-hidden rounded-2xl bg-border/20">
               <Image
@@ -38,7 +38,7 @@ export default function WhoWeAre() {
 
           <Reveal
             delay={340}
-            className="sm:col-span-1 sm:row-start-1 h-64 sm:h-72 lg:h-105"
+            className="sm:col-span-1 sm:row-start-1 h-64 sm:h-70"
           >
             <div className="relative h-full w-full overflow-hidden rounded-2xl bg-border/20">
               <Image
@@ -53,7 +53,7 @@ export default function WhoWeAre() {
 
           <Reveal
             delay={420}
-            className="sm:col-span-1 sm:row-start-2 h-64 sm:h-72 lg:h-105"
+            className="sm:col-span-1 sm:row-start-2 h-64 sm:h-70"
           >
             <div className="relative h-full w-full overflow-hidden rounded-2xl bg-border/20">
               <Image
@@ -68,7 +68,7 @@ export default function WhoWeAre() {
 
           <Reveal
             delay={500}
-            className="sm:col-span-4 sm:row-start-2 h-64 sm:h-72 lg:h-105"
+            className="sm:col-span-4 sm:row-start-2 h-64 sm:h-70"
           >
             <div className="relative h-full w-full overflow-hidden rounded-2xl bg-border/20">
               <Image
