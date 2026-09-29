@@ -21,8 +21,8 @@
 
   --color-primary-t: var(--primary-t);
 
-  --font-plusJakartaSans: var(--font-geist-plusJakartaSans);
-  --font-outfit: var(--font-geist-outfit);
+  --font-plusJakartaSans: var(--font-plusJakartaSans);
+  --font-outfit: var(--font-outfit);
 }
 
 body {
