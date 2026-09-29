@@ -7,6 +7,8 @@
 
   --border: #94a3b8;
   --accent: #ff5722;
+  --cream: #faf6f0;
+  --brown: #a07a4b;
 
   /* text */
   --primary-t: #222222;
@@ -18,6 +20,8 @@
 
   --color-border: var(--border);
   --color-accent: var(--accent);
+  --color-cream: var(--cream);
+  --color-brown: var(--brown);
 
   --color-primary-t: var(--primary-t);
 
