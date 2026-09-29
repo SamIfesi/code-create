@@ -22,7 +22,7 @@ const SLIDES: Slide[] = [
     title: 'Tech Trainings',
     description:
       'From learning the fundamentals to building real projects, we make technology accessible, practical, and career-focused.',
-    image: '/images/what-we-do/slide-1.jpg',
+    image: '/images/what-we-do/slide-1.png',
     alt: 'Learner listening during a tech training session',
     href: '/programs',
   },
@@ -40,7 +40,7 @@ const SLIDES: Slide[] = [
     title: 'Dummy Slide Three',
     description:
       'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    image: '/images/what-we-do/slide-3.jpg',
+    image: '/images/what-we-do/slide-1.png',
     alt: 'Placeholder image for slide three',
     href: '/programs',
   },
