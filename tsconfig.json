@@ -25,7 +25,8 @@
       "@nav/*": ["./components/nav/*"],
       "@home/*": ["./components/home/*"],
       "@icons/*": ["./components/icons/*"],
-      "@libs/*": ["./libs/*"]
+      "@libs/*": ["./libs/*"],
+      "@hooks/*": ["./hooks/*"]
     }
   },
   "include": [
