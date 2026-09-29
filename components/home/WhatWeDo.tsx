@@ -105,7 +105,7 @@ export default function WhatWeDo() {
                   inert={i !== index}
                   className="w-full shrink-0 grid grid-cols-1 lg:grid-cols-[1fr_2.4fr] gap-4"
                 >
-                  <div className="rounded-2xl bg-cream p-8 lg:p-12 flex flex-col justify-between gap-10 min-h-70">
+                  <div className="rounded-2xl bg-cream p-8 lg:p-12 flex flex-col justify-between gap-10 min-h-50">
                     <div>
                       <span className="text-brown uppercase tracking-wide text-xs font-semibold font-plusJakartaSans">
                         {slide.category}
