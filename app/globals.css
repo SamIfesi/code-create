@@ -6,6 +6,7 @@
   --secondary: #e4e8ed;
 
   --border: #94a3b8;
+  --navy: #0e1b3f;
   --accent: #ff5722;
   --cream: #faf6f0;
   --brown: #a07a4b;
@@ -19,6 +20,7 @@
   --color-secondary: var(--secondary);
 
   --color-border: var(--border);
+  --color-navy: var(--navy);
   --color-accent: var(--accent);
   --color-cream: var(--cream);
   --color-brown: var(--brown);
