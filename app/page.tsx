@@ -4,6 +4,7 @@ import WhoWeAre from '@components/home/WhoWeAre';
 import Stats from '@components/home/Stats';
 import WhatWeDo from '@/components/home/WhatWeDo';
 import Testimonials from '@/components/home/Testimonials';
+import Faq from '@/components/home/Faq';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <WhatWeDo />
         <Stats />
         <Testimonials />
+        <Faq />
       </main>
     </>
   );
